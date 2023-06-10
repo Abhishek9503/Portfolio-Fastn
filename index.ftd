@@ -16,7 +16,7 @@
 -- layout.base-layout:
 
 -- navbar.header:
-;; logo: $assets.ipsum-logo.png
+;; logo: $assets.files.imgaes.ipsum-logo.png
 logoURL: /
 header-item1: Home
 header-item2: About
