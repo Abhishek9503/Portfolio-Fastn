@@ -16,7 +16,7 @@
 -- layout.base-layout:
 
 -- navbar.header:
-logo: $assets.files.images.logo.png
+logo: $assets.files.images.ipsum-logo.png
 logoURL: /
 header-item1: Home
 header-item2: About
@@ -24,12 +24,12 @@ header-item3: Blogs
 header-item4: Tweets
 header-item5: Experience
 header-item6: Contact
-header-item1-link: /
-header-item2-link: /about
-header-item3-link: /blogs
-header-item4-link: /tweets
-header-item5-link: /experience
-header-item6-link: /contact
+header-item1-link: /PORTFOLIO-FASTN
+header-item2-link: /PORTFOLIO-FASTN/about
+header-item3-link: /PORTFOLIO-FASTN/blogs
+header-item4-link: /PORTFOLIO-FASTN/tweets
+header-item5-link: /PORTFOLIO-FASTN/experience
+header-item6-link: /PORTFOLIO-FASTN/contact
 cta-item1: Resume
 cta-item1-link: https://abhishek17-portfolio.netlify.app/
 cta-item2: MY Bio Page
