@@ -1,40 +1,91 @@
--- my-ds.page: Welcome to doc-site
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- import: Abhishek9503.me/assets
+-- import: ayushsoni1010.me/lib as lib
+-- import: ayushsoni1010.github.io/ui-packages/header as navbar
+-- import: ayushsoni1010.github.io/ui-packages/base-layout as layout
+-- import: ayushsoni1010.github.io/ui-packages/social-buttons as social
+-- import: ayushsoni1010.github.io/ui-packages/base-text as text
+-- import: ayushsoni1010.github.io/ui-packages/footer as footer
+-- import: ayushsoni1010.github.io/ui-packages/hero-toast as github-toast
+-- import: ayushsoni1010.github.io/ui-packages/button as button
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- layout.base-layout:
 
--- ds.h3: 🚀 Fast Track 
+-- navbar.header:
+logo: $assets.files.images.logo.png
+logoURL: /
+header-item1: Home
+header-item2: About
+header-item3: Blogs
+header-item4: Tweets
+header-item5: Experience
+header-item6: Contact
+header-item1-link: /
+header-item2-link: /about
+header-item3-link: /blogs
+header-item4-link: /tweets
+header-item5-link: /experience
+header-item6-link: /contact
+cta-item1: Resume
+cta-item1-link: https://abhishek17-portfolio.netlify.app/
+cta-item2: MY Bio Page
+cta-item2-link: https://abhishek-bio.onrender.com/
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
--- ds.h3: 🌟 Whats next?
+-- lib.toast:
+title: Hello, I'm a Full Stack Developer based in India
+link: https://github.com/Abhishek9503
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/page/).
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
--- ds.h3: 👀 Want to learn more?
+-- ftd.row: 
+margin-top.px: 60
+spacing.fixed.px: 14
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.column:
+spacing.fixed.px: 20
 
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: Abhishek Yadav,
 
--- ds.h3: 🎯 Used by?
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: full stack
+secondTitle: developer
 
-Our all documentation sites uses this `doc-site` theme.
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and
+secondTitle: Youtuber.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: An enthusiastic and motivated Student in the field of Computer Science with a keen interest in Full Stack Development. I love to build software that makes an impact on my organization and the world.
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+width.fixed.px: 700
 
--- ds.h2: Learn fastn and become a pro?
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.row:
+spacing.fixed.px: 10
 
--- end: my-ds.page
+-- button.secondary: 
+title: Hire me
+link: mailto:abhishek.pub9503@gmail.com
+
+-- button.primary: 
+title: Schedule a Meeting
+link: https://topmate.io/abhishek9503
+isNewTab: true
+
+-- end: ftd.row
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
